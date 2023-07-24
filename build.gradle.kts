@@ -10,10 +10,9 @@ repositories {
 }
 
 dependencies {
-    testImplementation(platform("org.junit:junit-bom:5.9.1"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
+    implementation("org.seleniumhq.selenium:selenium-java:3.141.59")
+    testImplementation("org.testng:testng:7.4.0")
+
 }
 
-tasks.test {
-    useJUnitPlatform()
-}
+
