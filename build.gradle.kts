@@ -10,9 +10,13 @@ repositories {
 }
 
 dependencies {
-    implementation("org.seleniumhq.selenium:selenium-java:3.141.59")
-    testImplementation("org.testng:testng:7.4.0")
+    implementation("org.seleniumhq.selenium:selenium-java:4.10.0")
+    testImplementation("org.testng:testng:7.5.1")
+
+
 
 }
-
+tasks.test {
+    useTestNG()
+}
 
