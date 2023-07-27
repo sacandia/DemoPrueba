@@ -12,7 +12,7 @@ public class Prueba {
 
     @BeforeTest
     public void setUp(){
-        System.setProperty("webdriver.chrome.driver", "");
+        System.setProperty("webdriver.chrome.driver", "driverNavegador/chromedriver.exe");
         webDriver = new ChromeDriver();
         webDriver.get(url);
     }
