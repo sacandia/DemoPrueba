@@ -5,6 +5,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import testClass.BusquedaAnimalesGoogle;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.WebElement;
 
 public class Prueba {
     ChromeDriver webDriver;
